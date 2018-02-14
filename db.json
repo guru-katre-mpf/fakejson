@@ -1,221 +1,232 @@
-{
-	"data": [{
-		"field": {
-			"name": "DSPPartner",
-			"type": "",
-			"description": "DSP Partner",
-			"component": "Dropdown",
-			"callBack": "this.onDropdownChange",
-			"id": "dsppartner"
-		},
-		"label": {
-			"title": "DSP Partner"
-		},
-		"fieldRow": 1,
-		"fieldClass": "smWidth CC"
-
-	}, {
-		"field": {
-			"name": "DSPDescription",
-			"type": "textarea",
-			"description": "DSPDescription Description (0/160)",
-			"component": "Input",
-			"callBack": "this.receiveClick",
-			"id": "dspdescription"
-		},
-		"label": {
-			"title": "Description (0/160)"
-		},
-		"fieldRow": 2,
-		"fieldClass": "mdWidth CC"
-	}, {
-		"field": {
-			"name": "Markets",
-			"type": "",
-			"description": "Markets",
-			"component": "Dropdown",
-			"callBack": "this.onDropdownChange",
-			"id": "market"
-		},
-		"label": {
-			"title": "Markets"
-		},
-		"fieldRow": 3,
-		"fieldClass": "smWidth CC",
-		"dependentOn": "DSPPartner"
-	}, {
-		"field": {
-			"name": "Agencies",
-			"type": "",
-			"description": "DSP Agencies",
-			"component": "Dropdown",
-			"callBack": "this.onDropdownChange",
-			"id": "agencies"
-		},
-		"label": {
-			"title": "Agencies"
-		},
-		"fieldRow": 3,
-		"fieldClass": "smWidth CC",
-		"dependentOn": "Markets"
-	}, {
-		"field": {
-			"name": "Clients",
-			"type": "",
-			"description": "Clients",
-			"component": "Dropdown",
-			"callBack": "this.onDropdownChange",
-			"id": "clients"
-		},
-		"label": {
-			"title": "Clients"
-		},
-		"fieldRow": 4,
-		"fieldClass": "smWidth CC",
-		"dependentOn": "Markets"
-	}, {
-		"field": {
-			"name": "Advertisers",
-			"type": "",
-			"description": "Advertisers",
-			"component": "Dropdown",
-			"callBack": "this.onDropdownChange",
-			"id": "advertisers"
-		},
-		"label": {
-			"title": "Advertisers"
-		},
-		"fieldRow": 4,
-		"fieldClass": "smWidth CC"
-	}, {
-		"field": {
-			"name": "seatName",
-			"type": "",
-			"description": "Seat Name Description",
-			"component": "Input",
-			"callBack": "this.receiveClick",
-			"id": "seatname"
-		},
-		"label": {
-			"title": "Seat Name"
-		},
-		"fieldRow": 5,
-		"fieldClass": "smWidth CC"
-	}, {
-		"field": {
-			"name": "SeatID",
-			"type": "",
-			"description": "Seat Name Description",
-			"component": "Input",
-			"callBack": "this.receiveClick",
-			"id": "seatid"
-		},
-		"label": {
-			"title": "Seat ID"
-		},
-		"fieldRow": 5,
-		"fieldClass": "smWidth CC"
-	}, {
-		"field": {
-			"description": "Seat Name Description",
-			"component": "Divider",
-			"id": "divider"
-		},
-		"label": {
-			"title": "Divider Text Here"
-		},
-		"fieldRow": 6,
-		"fieldClass": "lgWidth CC",
-		"dependentOn": "Clients"
-	}, {
-		"field": {
-			"name": "DSPDescription2",
-			"type": "textarea",
-			"description": "DSPDescription2 Description (0/160)",
-			"component": "Input",
-			"callBack": "this.receiveClick",
-			"id": "dspdescription2"
-		},
-		"label": {
-			"title": "Description (0/160)"
-		},
-		"fieldRow": 7,
-		"fieldClass": "mdWidth CC",
-		"dependentOn": "Advertisers"
-	}, {
-		"field": {
-			"name": "FileType",
-			"type": "",
-			"description": "File Type Description",
-			"component": "Dropdown",
-			"callBack": "this.onDropdownChange",
-			"id": "FileType"
-		},
-		"label": {
-			"title": "File Type"
-		},
-		"fieldRow": 8,
-		"fieldClass": "smWidth CC",
-		"dependentOn": "Advertisers"
-	}, {
-		"field": {
-			"name": "FileLocation",
-			"type": "",
-			"description": "File Location Description",
-			"component": "Dropdown",
-			"callBack": "this.onDropdownChange",
-			"id": "FileLocation"
-		},
-		"label": {
-			"title": "File Location"
-		},
-		"fieldRow": 8,
-		"fieldClass": "smWidth CC",
-		"dependentOn": "Advertisers"
-	}, {
-		"field": {
-			"name": "FilePath",
-			"type": "",
-			"description": "File Path Description",
-			"component": "Input",
-			"callBack": "this.receiveClick",
-			"id": "FilePath"
-		},
-		"label": {
-			"title": "File Path"
-		},
-		"fieldRow": 8,
-		"fieldClass": "smWidth CC",
-		"dependentOn": "Advertisers"
-	}, {
-		"field": {
-			"name": "LoginCredentials",
-			"type": "",
-			"description": "Login Credentials Description",
-			"component": "Input",
-			"callBack": "this.receiveClick",
-			"id": "LoginCredentials"
-		},
-		"label": {
-			"title": "Login Credentials"
-		},
-		"fieldRow": 9,
-		"fieldClass": "smWidth CC",
-		"dependentOn": "Advertisers"
-	}, {
-		"field": {
-			"name": "Password",
-			"type": "",
-			"description": "Password Description",
-			"component": "Input",
-			"callBack": "this.receiveClick",
-			"id": "Password"
-		},
-		"label": {
-			"title": "Password"
-		},
-		"fieldRow": 9,
-		"fieldClass": "smWidth CC",
-		"dependentOn": "Advertisers"
-	}]
-}
+[{
+	"field": {
+		"name": "DSPPartner",
+		"type": "Dropdown",
+		"subType": "regular",
+		"description": "DSP Partner",
+		"placeHolder": "Select One",
+		"callBack": "this.onDropdownChange",
+		"id": "dsppartner"
+	},
+	"label": {
+		"title": "DSP Partner"
+	},
+	"row": 1,
+	"classNames": "smWidth CC"
+}, {
+	"field": {
+		"name": "DSPDescription",
+		"type": "Input",
+		"subType": "textarea",
+		"description": "DSPDescription Description (0/160)",
+		"placeHolder": "Description here..",
+		"callBack": "this.receiveClick",
+		"id": "dspdescription"
+	},
+	"label": {
+		"title": "Description (0/160)"
+	},
+	"row": 2,
+	"classNames": "mdWidth CC"
+}, {
+	"field": {
+		"name": "Markets",
+		"type": "Dropdown",
+		"subType": "multiselect",
+		"description": "Markets",
+		"placeHolder": "Select One or More Markets",
+		"callBack": "this.onDropdownChange",
+		"id": "market"
+	},
+	"label": {
+		"title": "Markets"
+	},
+	"row": 3,
+	"classNames": "smWidth CC",
+	"dependentOn": "DSPPartner"
+}, {
+	"field": {
+		"name": "Agencies",
+		"type": "Dropdown",
+		"subType": "multiselect",
+		"description": "DSP Agencies",
+		"placeHolder": "Select One or More Agencies",
+		"callBack": "this.onDropdownChange",
+		"id": "agencies"
+	},
+	"label": {
+		"title": "Agencies"
+	},
+	"row": 3,
+	"classNames": "smWidth CC",
+	"dependentOn": "Markets"
+}, {
+	"field": {
+		"name": "Clients",
+		"type": "Dropdown",
+		"subType": "multiselect",
+		"description": "Clients",
+		"placeHolder": "Select One or More Clients",
+		"callBack": "this.onDropdownChange",
+		"id": "clients"
+	},
+	"label": {
+		"title": "Clients"
+	},
+	"row": 4,
+	"classNames": "smWidth CC",
+	"dependentOn": "Markets"
+}, {
+	"field": {
+		"name": "Advertisers",
+		"type": "Dropdown",
+		"subType": "multiselect",
+		"description": "Advertisers",
+		"placeHolder": "Select One or More Advertisers",
+		"callBack": "this.onDropdownChange",
+		"id": "advertisers"
+	},
+	"label": {
+		"title": "Advertisers"
+	},
+	"row": 4,
+	"classNames": "smWidth CC"
+}, {
+	"field": {
+		"name": "seatName",
+		"type": "Input",
+		"subType": "",
+		"description": "Seat Name Description",
+		"placeHolder": "Enter a Seat Name",
+		"callBack": "this.receiveClick",
+		"id": "seatname"
+	},
+	"label": {
+		"title": "Seat Name"
+	},
+	"row": 5,
+	"classNames": "smWidth CC"
+}, {
+	"field": {
+		"name": "SeatID",
+		"type": "Input",
+		"subType": "",
+		"description": "Seat Name Description",
+		"placeHolder": "Enter a Seat ID",
+		"callBack": "this.receiveClick",
+		"id": "seatid"
+	},
+	"label": {
+		"title": "Seat ID"
+	},
+	"row": 5,
+	"classNames": "smWidth CC"
+}, {
+	"field": {
+		"type": "Divider",
+		"description": "Seat Name Description",
+		"id": "divider"
+	},
+	"label": {
+		"title": "Divider Text Here"
+	},
+	"row": 6,
+	"classNames": "lgWidth CC",
+	"dependentOn": "Clients"
+}, {
+	"field": {
+		"name": "DSPDescription2",
+		"type": "Input",
+		"subType": "textarea",
+		"description": "DSPDescription2 Description (0/160)",
+		"placeHolder": "Description here..",
+		"callBack": "this.receiveClick",
+		"id": "dspdescription2"
+	},
+	"label": {
+		"title": "Description (0/160)"
+	},
+	"row": 7,
+	"classNames": "mdWidth CC",
+	"dependentOn": "Advertisers"
+}, {
+	"field": {
+		"name": "FileType",
+		"type": "Dropdown",
+		"subType": "regular",
+		"description": "File Type Description",
+		"placeHolder": "Select a File Type",
+		"callBack": "this.onDropdownChange",
+		"id": "FileType"
+	},
+	"label": {
+		"title": "File Type"
+	},
+	"row": 8,
+	"classNames": "smWidth CC",
+	"dependentOn": "Advertisers"
+}, {
+	"field": {
+		"name": "FileLocation",
+		"type": "Dropdown",
+		"subType": "regular",
+		"description": "File Location Description",
+		"placeHolder": "Select a File Location",
+		"callBack": "this.onDropdownChange",
+		"id": "FileLocation"
+	},
+	"label": {
+		"title": "File Location"
+	},
+	"row": 8,
+	"classNames": "smWidth CC",
+	"dependentOn": "Advertisers"
+}, {
+	"field": {
+		"name": "FilePath",
+		"type": "Input",
+		"subType": "",
+		"description": "File Path Description",
+		"placeHolder": "Enter URL",
+		"callBack": "this.receiveClick",
+		"id": "FilePath"
+	},
+	"label": {
+		"title": "File Path"
+	},
+	"row": 8,
+	"classNames": "smWidth CC",
+	"dependentOn": "Advertisers"
+}, {
+	"field": {
+		"name": "LoginCredentials",
+		"type": "Input",
+		"subType": "",
+		"description": "Login Credentials Description",
+		"placeHolder": "User Name",
+		"callBack": "this.receiveClick",
+		"id": "LoginCredentials"
+	},
+	"label": {
+		"title": "Login Credentials"
+	},
+	"row": 9,
+	"classNames": "smWidth CC",
+	"dependentOn": "Advertisers"
+}, {
+	"field": {
+		"name": "Password",
+		"type": "Input",
+		"subType": "password",
+		"description": "Password Description",
+		"placeHolder": "Password",
+		"callBack": "this.receiveClick",
+		"id": "Password"
+	},
+	"label": {
+		"title": "Password"
+	},
+	"row": 9,
+	"classNames": "smWidth CC",
+	"dependentOn": "Advertisers"
+}]

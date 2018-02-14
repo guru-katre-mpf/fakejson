@@ -1,4 +1,4 @@
-[{
+ {"data":[{
 	"field": {
 		"name": "DSPPartner",
 		"type": "Dropdown",
@@ -230,3 +230,4 @@
 	"classNames": "smWidth CC",
 	"dependentOn": "Advertisers"
 }]
+}

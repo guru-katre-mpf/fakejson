@@ -1,0 +1,17 @@
+{"data": [{
+    "field": {
+      "name": "DSPPartner",
+      "type": "",
+      "description": "DSP Partner",
+      "component": "Dropdown",
+      "callBack": "this.onDropdownChange",
+      "id": "dsppartner"
+    },
+    "label": {
+      "title": "DSP Partner"
+    },
+    "fieldRow": 1,
+    "fieldClass": "smWidth CC"
+  
+}]
+}

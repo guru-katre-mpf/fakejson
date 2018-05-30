@@ -5,7 +5,7 @@
 		"subType": "regular",
 		"description": "DSP Partner",
 		"placeHolder": "Select One",
-		"callBack": "this.onDropdownChange",
+		"callBack": this.onDropdownChange,
 		"id": "dsppartner"
 	},
 	"label": {

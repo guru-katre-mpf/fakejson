@@ -5,7 +5,6 @@
 		"subType": "regular",
 		"description": "DSP Partner",
 		"placeHolder": "Select One",
-		"callBack": "this.onDropdownChange",
 		"id": "dsppartner"
 	},
 	"label": {
@@ -20,11 +19,10 @@
 		"subType": "textarea",
 		"description": "DSPDescription Description (0/160)",
 		"placeHolder": "Description here..",
-		"callBack": "this.receiveClick",
 		"id": "dspdescription"
 	},
 	"label": {
-		"title": "Description (0/160)"
+		"title": "Description"
 	},
 	"row": 2,
 	"classNames": "mdWidth CC"
@@ -35,7 +33,6 @@
 		"subType": "multiselect",
 		"description": "Markets",
 		"placeHolder": "Select One or More Markets",
-		"callBack": "this.onDropdownChange",
 		"id": "market"
 	},
 	"label": {
@@ -51,7 +48,6 @@
 		"subType": "multiselect",
 		"description": "DSP Agencies",
 		"placeHolder": "Select One or More Agencies",
-		"callBack": "this.onDropdownChange",
 		"id": "agencies"
 	},
 	"label": {
@@ -67,7 +63,6 @@
 		"subType": "multiselect",
 		"description": "Clients",
 		"placeHolder": "Select One or More Clients",
-		"callBack": "this.onDropdownChange",
 		"id": "clients"
 	},
 	"label": {
@@ -83,7 +78,6 @@
 		"subType": "multiselect",
 		"description": "Advertisers",
 		"placeHolder": "Select One or More Advertisers",
-		"callBack": "this.onDropdownChange",
 		"id": "advertisers"
 	},
 	"label": {
@@ -98,7 +92,6 @@
 		"subType": "",
 		"description": "Seat Name Description",
 		"placeHolder": "Enter a Seat Name",
-		"callBack": "this.receiveClick",
 		"id": "seatname"
 	},
 	"label": {
@@ -113,7 +106,6 @@
 		"subType": "",
 		"description": "Seat Name Description",
 		"placeHolder": "Enter a Seat ID",
-		"callBack": "this.receiveClick",
 		"id": "seatid"
 	},
 	"label": {
@@ -140,11 +132,10 @@
 		"subType": "textarea",
 		"description": "DSPDescription2 Description (0/160)",
 		"placeHolder": "Description here..",
-		"callBack": "this.receiveClick",
 		"id": "dspdescription2"
 	},
 	"label": {
-		"title": "Description (0/160)"
+		"title": "Description 2"
 	},
 	"row": 7,
 	"classNames": "mdWidth CC",
@@ -156,7 +147,6 @@
 		"subType": "regular",
 		"description": "File Type Description",
 		"placeHolder": "Select a File Type",
-		"callBack": "this.onDropdownChange",
 		"id": "FileType"
 	},
 	"label": {
@@ -172,7 +162,6 @@
 		"subType": "regular",
 		"description": "File Location Description",
 		"placeHolder": "Select a File Location",
-		"callBack": "this.onDropdownChange",
 		"id": "FileLocation"
 	},
 	"label": {
@@ -188,7 +177,6 @@
 		"subType": "",
 		"description": "File Path Description",
 		"placeHolder": "Enter URL",
-		"callBack": "this.receiveClick",
 		"id": "FilePath"
 	},
 	"label": {
@@ -204,7 +192,6 @@
 		"subType": "",
 		"description": "Login Credentials Description",
 		"placeHolder": "User Name",
-		"callBack": "this.receiveClick",
 		"id": "LoginCredentials"
 	},
 	"label": {
@@ -220,7 +207,6 @@
 		"subType": "password",
 		"description": "Password Description",
 		"placeHolder": "Password",
-		"callBack": "this.receiveClick",
 		"id": "Password"
 	},
 	"label": {

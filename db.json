@@ -202,15 +202,15 @@
 	"dependentOn": "Advertisers"
 }, {
 	"field": {
-		"name": "Password",
+		"name": "Address",
 		"type": "Input",
-		"subType": "password",
-		"description": "Password Description",
-		"placeHolder": "Password",
-		"id": "Password"
+		"subType": "address",
+		"description": "Adress Description",
+		"placeHolder": "Address",
+		"id": "Address"
 	},
 	"label": {
-		"title": "Password"
+		"title": "Address"
 	},
 	"row": 9,
 	"classNames": "smWidth CC",
